@@ -1,0 +1,23 @@
+
+/* .carouselStyle{
+    width: 100%;
+    height: 400px;
+} */
+
+.imageStyle{
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    
+}
+
+
+/* Makes the carrousel smaller */
+@media (max-width: 850px) {
+    .carouselStyle{
+        height: 80px;
+    }
+    .imageStyle{
+        height: 300px;
+    }
+  }

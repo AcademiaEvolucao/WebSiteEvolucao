@@ -1,0 +1,21 @@
+.our-space-title{
+    margin: 0px 150px 50px 300px;
+    font-size: 40px;
+}
+
+.our-space-title-dark-themed{
+    margin: 0px 150px 50px 300px;
+    font-size: 40px;
+    color: white;
+}
+
+@media (max-width: 850px){
+    .our-space-title{
+        margin: 110px 150px 30px 50px;
+        font-size: 25px;
+    }
+    .our-space-title-dark-themed{
+        margin: 110px 150px 30px 50px;
+        font-size: 25px;
+    }
+}
